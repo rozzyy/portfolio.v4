@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@layer base {
+  .nav-hover {
+    @apply px-2 py-1 flex gap-2 transition-all duration-600 ease-in-out w-full border border-transparent hover:border hover:border-gray-600 hover:bg-gray-600/40 hover:rounded-xl
+  }
+  .nav-active {
+    @apply px-2 py-1 flex gap-2 transition-all duration-600 ease-in-out w-full border border-gray-600 bg-gray-600/40 rounded-xl
+  }
+}
