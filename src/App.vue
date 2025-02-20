@@ -3,13 +3,12 @@ import Navbar from './components/Navbar.vue';
 </script>
 
 <template>
-  <div class="scroll-smooth">
-    <Navbar />
-    <div>
-      <router-view />
+    <div class="scroll-smooth">
+        <Navbar />
+        <div>
+            <router-view />
+        </div>
     </div>
-  </div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
